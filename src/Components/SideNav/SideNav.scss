@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+}
+.side-nav-container{
+    color: black;
+    
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 5vw;
+        .profile-image{
+            width: 40px;
+            height: 40px;
+            background: rgb(15, 18, 59);
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        span{
+            font-weight: 500;
+        }
+    }
+
+    .list-container{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .profile-link{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}

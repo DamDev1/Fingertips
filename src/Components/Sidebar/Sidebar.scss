@@ -1,0 +1,104 @@
+.sidebar-container{
+    .sidebar-link{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 1rem;
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: rgb(255, 136, 0);
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .all{
+            background: rgb(18, 153, 18);
+        }
+
+        .link{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border-bottom: 1px solid rgb(206, 206, 206);
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+            span{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .sidebar-link:nth-child(2){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("../../../public/image/home-garden.png");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .sidebar-link:nth-child(3){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("../../../public/image/electronics.png");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .sidebar-link:nth-child(4){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("https://cdn.thewirecutter.com/wp-content/media/2023/06/businesslaptops-2048px-0943.jpg");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .sidebar-link:nth-child(5){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("../../../public/image/fashion.png");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .sidebar-link:nth-child(6){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("https://assets.nexuspointapex.co.uk/tenant_c6c1a765-8ab5-439e-bae5-1df553fe98e8/media/uploads/img-2951.jpg ");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .sidebar-link:nth-child(7){
+        .icon{
+            width: 3.5rem;
+            height: 2.9rem;
+            background: url("../../../public/image/toys.png");
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}

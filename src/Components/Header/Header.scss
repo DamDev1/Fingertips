@@ -1,0 +1,119 @@
+header{
+    padding: 3rem 10vw;
+    background: #1B1A41;
+    color: white;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-and-cart{
+            .logo{
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .cart{
+                display: none;
+            }
+        }
+
+
+        .search-bar-container{
+            width: 50%;
+            .search-bar{
+                width: 100%;
+                background: white;
+                padding: 10px;
+                color: black;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                border-radius: 20px;
+
+                .serach-icon{
+                    color: gray;
+                    margin-top: 5px;
+                }
+                input{
+                    width: 100%;
+                    border: 0;
+                    outline: 0;
+                    font-size: 15px;
+                }
+
+                button{
+                    padding: 10px;
+                    border-radius: 20px;
+                    border: 0;
+                    font-size: 14px;
+                    cursor: pointer;
+                    background: #4E04FB;
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .right-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:20px;
+
+            .cart{
+                display: flex;
+            }
+        }
+    }
+
+    .sideNav{
+        position: fixed;
+        right: 0;
+        background: white;
+        padding: 2rem;
+        top:0;
+        height: 100vh;
+        width: 25%;
+        color: black    ;
+        .close-nav-bar{
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+        }
+    }
+}
+
+@media(max-width:768px){
+    header{
+        padding: 3rem 5vw;
+
+        nav{
+            .logo-and-cart{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .cart{
+                    display: flex;
+                }
+            }
+            
+            .search-bar-container{
+                margin-top: 1rem;
+                width: 95%;
+                .search-bar{
+                    input{
+                        width: 95%;
+                    }
+                }
+            }
+            display: block;
+            .right-nav{
+                display: none;
+            }
+        }
+    }
+}

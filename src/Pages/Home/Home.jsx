@@ -1,5 +1,5 @@
 import React from 'react'
-import Welcome from '../../Components/Welcome/Welcome'
+
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import "./Home.scss"
 import FlashProduct from '../../Components/FlashProducts/FlashProduct'
@@ -8,7 +8,6 @@ import FeaturedProduct from '../../Components/FeaturedProduct/FeaturedProduct'
 export default function Home() {
     return (
         <div>
-            <Welcome />
             <main>
                 <div className="showcase">
                     <div className="sideBar">
@@ -167,6 +166,10 @@ export default function Home() {
                     <div className="products-deal-container">
                         <FeaturedProduct/>
                     </div>
+                </div>
+
+                <div className="banner-showcase">
+                    
                 </div>
             </main>
         </div>

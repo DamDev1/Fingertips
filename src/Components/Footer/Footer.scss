@@ -1,0 +1,47 @@
+footer {
+    margin-top: 2rem;
+    background-color: rgba(199, 199, 199, 0.486);
+    padding: 2rem 10vw;
+
+    .col{
+        .main-footer{
+            display: grid;
+            grid-template-columns: repeat(5, 20%);
+
+            .row-one{
+                p{
+                    margin-top: 1rem;
+                    font-size: 14px;
+                    color: rgb(80, 79, 79);
+                }
+            }
+            .row-two,.row-three{
+                ul{
+                    margin-top: 1rem;
+                    list-style: none;
+                    li{
+                        margin-top: 1rem;
+                        font-size: 14px;
+                        a{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        .col {
+            .main-footer {
+                display: block;
+
+                .row-two,.row-three{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
